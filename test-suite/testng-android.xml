@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Sample tests for Android">
+    <test name="WebDriverIO Android App Tests" enabled="true">
+        <classes>
+            <class name="io.github.prasadmudedla.android.tests.AndroidTests">
+                <methods>
+                    <include name="testHomePageTitle"/>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
