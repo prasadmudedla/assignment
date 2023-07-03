@@ -25,4 +25,6 @@
 
   `mvn clean install`
 
+## Notes
+- The App works for any username and password.
 
